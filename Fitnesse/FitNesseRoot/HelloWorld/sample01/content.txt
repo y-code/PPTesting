@@ -1,0 +1,9 @@
+!path lib/*.jar
+
+!|dbfit.PostgresTest|
+
+!|Connect|localhost:5432|Yasunori|maido2134|projectpanel|
+
+!|Query| select 'test' as x from app_user |
+
+!contents -R2 -g -p -f -h

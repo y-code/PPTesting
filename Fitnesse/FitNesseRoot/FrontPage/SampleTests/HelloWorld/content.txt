@@ -1,0 +1,14 @@
+<test page>
+!path dotNet\*.dll
+
+!|dbfit.PostgreSqlTest|
+
+!|Connect|127.0.0.1:5432|Yasunori|maido2134|projectpanel|
+
+!|Query| select 'test' as x|
+|x|
+|test|
+
+!|Query| select first_name, last_name from app_user|
+|first_name|last_name|
+|Yas|Ikeda|

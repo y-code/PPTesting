@@ -1,0 +1,6 @@
+<test page>
+!path dotNet\*.dll
+
+!|PPTesting.LoginTest|
+|UserName|Password|IsLogInSuccessful?|
+|Yasunori|1234|true|

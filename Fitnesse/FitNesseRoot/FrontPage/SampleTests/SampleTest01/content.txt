@@ -1,0 +1,4 @@
+<test page>
+
+|sample do|
+|check|greeting|Hi|

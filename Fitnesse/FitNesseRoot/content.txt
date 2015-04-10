@@ -1,3 +1,4 @@
-!define TEST_RUNNER {dotNet\Runner.exe}
-!define COMMAND_PATTERN {%m -c test.config.xml %p}
+!define TEST_RUNNER {.\dotNet\Runner.exe}
+!define COMMAND_PATTERN {%m -c .\test.config.xml %p}
 !define PATH_SEPARATOR {;}
+

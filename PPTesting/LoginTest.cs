@@ -1,5 +1,4 @@
 ﻿using fit;
-using OpenQA.Selenium.Support.PageObjects;
 using PPTesting.Gui.WebPage;
 
 namespace PPTesting

@@ -2,14 +2,9 @@
     <Settings>
         <Runner>fitnesse.fitserver.FitServer</Runner>
     </Settings>
-    <fit.Assemblies>
-         <add>C:\Users\Yasunori\JavaProjects\FitNesse\dotNet\fit.dll</add>
-         <add>C:\Users\Yasunori\JavaProjects\FitNesse\dotNet\fitSharp.dll</add>
-         <add>C:\Users\Yasunori\JavaProjects\FitNesse\dotNet\dbfit.dll</add>
-    </fit.Assemblies>
 
     <ApplicationUnderTest>
+        <addAssembly>.\dotNet\PPTesting.dll</addAssembly>
         <addNamespace>PPTesting</addNamespace>
-        <addAssembly>C:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTesting\bin\Debug\PPTesting.dll</addAssembly>
     </ApplicationUnderTest>
 </suiteConfig>

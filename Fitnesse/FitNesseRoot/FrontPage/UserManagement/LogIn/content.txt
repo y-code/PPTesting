@@ -1,5 +1,4 @@
 <test page>
-!path dotNet\*.dll
 
 !|PPTesting.LoginTest|
 |UserName|Password|IsLogInSuccessful?|

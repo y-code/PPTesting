@@ -18,3 +18,4 @@ C:\Users\Yasunori\documents\visual studio 2013\Projects\PPTesting\PPTesting\bin\
 C:\Users\Yasunori\documents\visual studio 2013\Projects\PPTesting\PPTesting\bin\Debug\WebDriver.Support.xml
 C:\Users\Yasunori\documents\visual studio 2013\Projects\PPTesting\PPTesting\bin\Debug\fit.pdb
 C:\Users\Yasunori\documents\visual studio 2013\Projects\PPTesting\PPTesting\bin\Debug\fitSharp.pdb
+C:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTesting\obj\Debug\PPTesting.csprojResolveAssemblyReference.cache

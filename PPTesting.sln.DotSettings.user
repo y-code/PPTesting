@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=20407171E633481583A308D472E74FB6/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=20407171E633481583A308D472E74FB6/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=20407171E633481583A308D472E74FB6/Name/@EntryValue">UserAuthenticationFeature</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=20407171E633481583A308D472E74FB6/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;e Id="PPTestingWithSpecFlow.UserAuthenticationFeature" Project="98238B95-859B-47C3-95A0-55CAE5D76A64" Provider="nUnit" /&gt;&lt;e Id="PPTestingWithSpecFlow.UserAuthenticationFeature.AUserSuccessfullyLogin_" Project="98238B95-859B-47C3-95A0-55CAE5D76A64" Provider="nUnit" /&gt;&lt;e Id="PPTestingWithSpecFlow.UserAuthenticationFeature.AUserFailsToLogInWithAWrongPassword_" Project="98238B95-859B-47C3-95A0-55CAE5D76A64" Provider="nUnit" /&gt;&lt;e Id="PPTestingWithSpecFlow.UserAuthenticationFeature.AUserFailsToLogInWithAWrongUserName_" Project="98238B95-859B-47C3-95A0-55CAE5D76A64" Provider="nUnit" /&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=C9B3EE0510494BEAB90D224CD89826DD/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=C9B3EE0510494BEAB90D224CD89826DD/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=C9B3EE0510494BEAB90D224CD89826DD/Name/@EntryValue">SpecFlowSampleFeature</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=C9B3EE0510494BEAB90D224CD89826DD/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;e Id="PPTestingWithSpecFlow.SpecFlowSampleFeature" Project="98238B95-859B-47C3-95A0-55CAE5D76A64" Provider="nUnit" /&gt;&lt;e Id="PPTestingWithSpecFlow.SpecFlowSampleFeature.ThisIsASortOfSand_Box_" Project="98238B95-859B-47C3-95A0-55CAE5D76A64" Provider="nUnit" /&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>

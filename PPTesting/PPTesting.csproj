@@ -38,32 +38,40 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\fitsharp\source\dbfitPostgreSql\bin\Debug\fitSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Selenium.WebDriverBackedSelenium">
-      <HintPath>lib\selenium-net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="ThoughtWorks.Selenium.Core">
-      <HintPath>lib\selenium-net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+    <Reference Include="WebDriver, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Selenium.WebDriver.2.45.0\lib\net40\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver">
-      <HintPath>lib\selenium-net40\WebDriver.dll</HintPath>
-    </Reference>
-    <Reference Include="WebDriver.Support">
-      <HintPath>lib\selenium-net40\WebDriver.Support.dll</HintPath>
+    <Reference Include="WebDriver.Support, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Selenium.Support.2.45.0\lib\net40\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gui\WebPage\WebPageLogin.cs" />
-    <Compile Include="Gui\WebPage\WebPage.cs" />
-    <Compile Include="Gui\WebPage\WebPageFactory.cs" />
-    <Compile Include="Gui\WebPage\Url.cs" />
-    <Compile Include="Gui\WebPage\WebPageWelcome.cs" />
+    <Compile Include="WebPage\WebPageAdmin.cs" />
+    <Compile Include="WebPage\WebPageLogin.cs" />
+    <Compile Include="WebPage\WebPageDevRoom.cs" />
+    <Compile Include="WebPage\WebPageWelcome.cs" />
     <Compile Include="LoginTest.cs" />
     <Compile Include="SampleDo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SeleniumExtension\SeleniumExtension.csproj">
+      <Project>{f4087da0-9f9b-4114-b68f-95e09ece839c}</Project>
+      <Name>SeleniumExtension</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

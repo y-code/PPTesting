@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTesting", "PPTesting\PPTesting.csproj", "{D5E9615A-A6CF-46A0-8D73-5CCF47418F37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPTestingWithSpecFlow", "PPTestingWithSpecFlow\PPTestingWithSpecFlow.csproj", "{98238B95-859B-47C3-95A0-55CAE5D76A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{362C8DA0-CDB9-48A5-84F0-CE59EF55FFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumExtension", "SeleniumExtension\SeleniumExtension.csproj", "{F4087DA0-9F9B-4114-B68F-95E09ECE839C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,14 @@ Global
 		{D5E9615A-A6CF-46A0-8D73-5CCF47418F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E9615A-A6CF-46A0-8D73-5CCF47418F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E9615A-A6CF-46A0-8D73-5CCF47418F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98238B95-859B-47C3-95A0-55CAE5D76A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98238B95-859B-47C3-95A0-55CAE5D76A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98238B95-859B-47C3-95A0-55CAE5D76A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98238B95-859B-47C3-95A0-55CAE5D76A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4087DA0-9F9B-4114-B68F-95E09ECE839C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4087DA0-9F9B-4114-B68F-95E09ECE839C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4087DA0-9F9B-4114-B68F-95E09ECE839C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4087DA0-9F9B-4114-B68F-95E09ECE839C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

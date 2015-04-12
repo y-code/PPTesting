@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTestingWithSpecFlow\bin\Debug\PPTestingWithSpecFlow.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-04-12" time="13:47:50">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTestingWithSpecFlow\bin\Debug" machine-name="ASUS2" user="Yasunori" user-domain="ASUS2" />
+  <culture-info current-culture="en-NZ" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTestingWithSpecFlow\bin\Debug\PPTestingWithSpecFlow.dll" executed="True" result="Failure" success="False" time="1.710" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PPTestingWithSpecFlow" executed="True" result="Failure" success="False" time="1.695" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="UserAuthenticationFeature" description="User Authentication" executed="True" result="Failure" success="False" time="1.340" asserts="0">
+            <categories>
+              <category name="mytag" />
+            </categories>
+            <results>
+              <test-case name="PPTestingWithSpecFlow.UserAuthenticationFeature.AUserFailsToLogInWithAWrongPassword_" description="A user fails to log in with a wrong password." executed="True" result="Error" success="False" time="0.636" asserts="0">
+                <failure>
+                  <message><![CDATA[SeleniumExtension.NoWebPageForName : There was no web page that can be referred by "Login Page"]]></message>
+                  <stack-trace><![CDATA[at SeleniumExtension.WebPageFactory.CreatePageNamed(String webPageName) in c:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\SeleniumExtension\WebPageFactory.cs:line 39
+at PPTestingWithSpecFlow.UserAuthenticationSteps.GivenWebPageIsDisplayedOnTheBrowser(String pageName) in c:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTestingWithSpecFlow\UserAuthenticationSteps.cs:line 17
+at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+at PPTestingWithSpecFlow.UserAuthenticationFeature.ScenarioCleanup() in c:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTestingWithSpecFlow\UserAuthentication.feature.cs:line 0
+at PPTestingWithSpecFlow.UserAuthenticationFeature.AUserFailsToLogInWithAWrongPassword_() in c:\Users\Yasunori\Documents\Visual Studio 2013\Projects\PPTesting\PPTestingWithSpecFlow\UserAuthentication.feature:line 19
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,5 +1,6 @@
 ﻿using fit;
-using PPTesting.Gui.WebPage;
+using PPTesting.WebPage;
+using SeleniumExtension;
 
 namespace PPTesting
 {
